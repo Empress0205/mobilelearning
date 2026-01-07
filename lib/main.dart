@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learning_day_1/page/login.dart';
+import 'package:learning_day_1/page/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         
-        colorScheme: .fromSeed(seedColor: const Color.fromARGB(0, 201, 15, 18) ,brightness: Brightness.dark),
+        colorScheme: .fromSeed(
+          seedColor:Colors.teal,
+          brightness: Brightness.dark),
       ),
       home:MyWidget() ,
     );
